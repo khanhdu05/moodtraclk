@@ -1,0 +1,64 @@
+
+> moodtrack-mobile@1.0.0 web
+> expo start --web --clear --port 19006
+
+Starting project at D:\baicuoiky
+Starting Metro Bundler
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+Waiting on http://localhost:19006
+Logs for your project will appear below.
+Web node_modules\expo\AppEntry.js ▓▓▓▓▓▓▓▓▓▓▓▓░░░░ 81.0% (85/97)
+Web Bundled 5220ms node_modules\expo\AppEntry.js (217 modules)
+ LOG  [web] Logs will appear in the browser console
+Web node_modules\expo\AppEntry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 87ms node_modules\expo\AppEntry.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web node_modules\expo\AppEntry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 36ms node_modules\expo\AppEntry.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web node_modules\expo\AppEntry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 50ms node_modules\expo\AppEntry.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Unable to resolve "./src/data/moods" from "App.js"
+[0m [90m 15 |[39m   [33mView[39m
+ [90m 16 |[39m } [36mfrom[39m [32m"react-native"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 17 |[39m [36mimport[39m { activities[33m,[39m moods } [36mfrom[39m [32m"./src/data/moods"[39m[33m;[39m
+ [90m    |[39m                                    [31m[1m^[22m[39m
+ [90m 18 |[39m [36mimport[39m {
+ [90m 19 |[39m   addMoodEntry[33m,[39m
+ [90m 20 |[39m   deleteMoodEntry[33m,[39m[0m
+
+Import stack:
+
+ App.js
+ | import "./src/data/moods"
+
+ node_modules\expo\AppEntry.js
+ | import "../../App"
+
+ 
+ | import "./node_modules/expo/AppEntry"
+
+Unable to resolve "../../App" from "node_modules\expo\AppEntry.js"
+[0m [90m 1 |[39m [36mimport[39m registerRootComponent [36mfrom[39m [32m'expo/src/launch/registerRootComponent'[39m[33m;[39m
+ [90m 2 |[39m
+[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m [33mApp[39m [36mfrom[39m [32m'../../App'[39m[33m;[39m
+ [90m   |[39m                  [31m[1m^[22m[39m
+ [90m 4 |[39m
+ [90m 5 |[39m registerRootComponent([33mApp[39m)[33m;[39m
+ [90m 6 |[39m[0m
+
+Import stack:
+
+ node_modules\expo\AppEntry.js
+ | import "../../App"
+
+ 
+ | import "./node_modules/expo/AppEntry"
+
+Web node_modules\expo\AppEntry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 76ms node_modules\expo\AppEntry.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web node_modules\expo\AppEntry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 19ms node_modules\expo\AppEntry.js (1 module)
+ LOG  [web] Logs will appear in the browser console

@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "MoodTrack",
+    "slug": "moodtrack-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F6F2EA"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
